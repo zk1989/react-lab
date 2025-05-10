@@ -11,7 +11,7 @@ function App() {
         setEmail(event.target.value);
     }
 
-    function handleClick(event) {
+    function handleClick() {
         setLogged(logged => !logged);
     }
 
